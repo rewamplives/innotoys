@@ -1,0 +1,27 @@
+.slider-container{
+    padding:3rem;
+    color:#fff;
+    height:50vh;
+    width:60vw;
+}
+.box{
+    background-color: #111;
+    height:150px;
+    width:400px;
+    border-radius:4px;
+
+}
+.box h3{
+    text-align: center;
+}
+.slick-slide div{
+    margin:0 1rem;
+}
+.silck-dots li.silck-active button:before{
+color: #111;
+}
+.silck-dots li button:before{
+    color:#c2c2c2;
+    font-size:1rem;
+    top:2rem;
+}

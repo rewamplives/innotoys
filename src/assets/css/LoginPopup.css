@@ -1,0 +1,49 @@
+.login-page{
+    width:100%;
+    z-index:1;
+    height:100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    display: grid;
+}
+form.login-popup-container{
+    place-self: center;
+    width:max(23vw,20vh) !important;
+    color: #080808;
+    background-color:#D7D7D7;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding:15px 25px;
+    border-radius: 8px;
+    font-size:14px;
+    /* animation: fadeIn 0.5s; */
+}
+.login-popup-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+}
+.login-popup-input{
+   display: flex; 
+   flex-direction: column;
+   gap: 20px;
+   border:none;
+}
+.login-popup-input input{
+  outline: none;
+  padding:10px;
+  border:1px solid #c9c9c9;
+  border-radius:4px;
+ }
+ 
+
+.login-popup-condition{
+display: flex;
+align-items: start;
+gap: 8px;
+} 
+.login-popup-condition input{
+    margin-top:17px;
+}
